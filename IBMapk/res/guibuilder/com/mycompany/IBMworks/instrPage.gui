@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="font:12.0mm native:MainBold native:MainBold; bgColor:f7fefb; fgColor:f7fefb; bgImage:ComboBox.sel#borderTopL_1.png;" title="INSTRUCTION PAGE" scrollableY="false" name="instrPage">
+  <component type="TextArea" text="el practiso fjjd hddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddjjdjd ddjjjj
+
+
+" styles="font:1.0mm native:MainBold native:MainBold; border:roundRect stroke(0.1mm 37000000) -top-left +top-right -bottom-left +bottom-right 2.0mm; bgColor:f7fefb; fgColor:20101; transparency:255; opacity:223; bgType:none; bgImage:; alignment:left;" preferredSize="123.809525mm 30.0mm" hint="here" editable="true" rtl="false" rows="5" columns="10" maxSize="124000" constraint="524288" name="display">
+    <layoutConstraint insets="2.645503mm auto auto auto" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="CONTINUE" styles="font:native:ItalicBold native:ItalicBold; border:0.25mm dotted 0; bgColor:20101; fgColor:deffee; transparency:255; opacity:255; alignment:left;" preferredSize="16.931217193603516mm inherit" name="playButton">
+    <layoutConstraint insets="auto auto 3.4391575mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" text="Read the instructions carefully" styles="font:1.7mm native:ItalicLight native:ItalicLight; bgColor:20101; fgColor:fe2e2a; bgImage:;" preferredSize="24.338625mm 4.4973545mm" name="Label">
+    <layoutConstraint insets="0.0mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" text="Welcome, " styles="font:2.0mm native:MainBold native:MainBold; bgImage:;" preferredSize="123.809525mm inherit" textPosition="3" name="UserName">
+    <layoutConstraint insets="3.7037036mm auto auto auto" referenceComponents="2 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>

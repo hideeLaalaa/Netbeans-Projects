@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="font:14.0mm; bgColor:20101; fgColor:2cfe23;" title="testPage" scrollableY="false" name="testPage">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="61.640213" layeredLayoutPreferredHeightMM="52.645504"  styles="font:1.5mm native:ItalicThin native:ItalicThin; bgColor:e2d4eb; fgColor:2cfe23; transparency:135; opacity:211;" preferredSize="61.640213mm 52.645504mm" name="Container">
+    <layoutConstraint insets="auto 83.06879mm 59.18728% auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Table" preferredSize="56.613758mm inherit" name="Table">
+      <layoutConstraint insets="0.7936516mm 1.3227501mm auto 3.7037048mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" text="Button" name="Button">
+      <layoutConstraint insets="auto auto 38.693466% 3.4391537mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" text="Button" name="Button_2">
+      <layoutConstraint insets="auto auto 37.688442% 30.04292%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="InfiniteProgress" styles="bgColor:0; fgColor:f7fefb;" name="Infinite_Progress">
+      <layoutConstraint insets="auto auto 8.201058mm 33.90558%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+  <component type="Button" text="Button" name="Button_1">
+    <layoutConstraint insets="auto 0.0mm 5.291008mm auto" referenceComponents="-1 0 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Flow_Layout">
+    <layoutConstraint insets="auto 1.8518524mm 40.282684% auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="Search" name="Label">
+    </component>
+    <component type="TextField" name="TextField">
+    </component>
+    <component type="Button" text="Submit" name="Button_3">
+    </component>
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Border_Layout">
+    <layoutConstraint insets="auto 30.167599% 1.3227501mm 19.8324%" referenceComponents="0 -1 1 -1" referencePositions="0.0 0.0 1.0 0.0" />
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Flow_Layout_1">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="Search" name="Label_1">
+      </component>
+      <component type="TextField" name="TextField_1">
+      </component>
+      <component type="Button" text="Submit" name="Button_5">
+      </component>
+    </component>
+    <component type="ScaleImageButton" icon="fontImage:e3f4" name="ScaleImageButton">
+      <layoutConstraint value="East" />
+    </component>
+    <component type="Button" text="Edit" name="Button_4">
+      <layoutConstraint value="West" />
+    </component>
+  </component>
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  name="Layered_Layout">
+    <layoutConstraint insets="7.933194% 6.296296% 32.985386% 27.407408%" referenceComponents="0 2 3 0 " referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Box_Layout_Y">
+    <layoutConstraint insets="-2.3809524mm 5.8201056mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="Search" name="Label_2">
+    </component>
+    <component type="TextField" name="TextField_2">
+    </component>
+    <component type="Button" text="Submit" name="Button_6">
+    </component>
+  </component>
+  <component type="Container" layout="TableLayout" tableLayoutRows="3" tableLayoutColumns="3" tableLayoutGrowHorizontally="false"  name="Table_Layout">
+    <layoutConstraint insets="auto 50.977654% 32.155476% -1.8518519mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="Name" name="Label_3">
+      <layoutConstraint row="0" column="0" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="TextField_3">
+      <layoutConstraint row="0" column="1" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="Label" text="Email" name="Label_3">
+      <layoutConstraint row="1" column="0" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="TextField_3">
+      <layoutConstraint row="1" column="1" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="Label" text="Phone" name="Label_3">
+      <layoutConstraint row="2" column="0" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="TextField_3">
+      <layoutConstraint row="2" column="1" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+    <component type="Button" text="Add" name="Button_7">
+      <layoutConstraint row="2" column="2" height="-1" width="-1" align="-1" valign="-1" spanHorizontal="1" spanVertical="1" />
+    </component>
+  </component>
+  <component type="InfiniteProgress" name="Infinite_Progress_1">
+    <layoutConstraint insets="auto 19.553072% 19.43463% auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>

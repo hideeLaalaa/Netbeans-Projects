@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="bgColor:fbfaf9; bgType:none; bgImage:chbox1.png;" title="GuiComponent" scrollableY="true" name="GuiComponent">
+<command varName="null" hasCode="false" name="New Command" id="0" placement="null"/>  <component type="Label" uiid="BackCommandLandscape" text="FORM" styles="bgColor:102827; fgColor:7c7a50; transparency:36; opacity:255; bgType:gradient_radial;" preferredSize="187.30159mm 5.820106mm" name="Form">
+    <layoutConstraint insets="0.0mm 0.0mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Table" preferredSize="21.957672mm 52.910053mm" name="Table">
+    <layoutConstraint insets="17.723883% auto auto 22.06704%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>
